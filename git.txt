@@ -1,0 +1,23 @@
+Indice  =   La ubicacion de los archivos que se encuentran listos para subir al repositorio
+
+
+
+1.      git config --global user.name Julian Argoti 
+2.      git config --global user.mail julian_argoti_27@hotmail.com
+3.      git config -l                                               -   Revisa la configuracion del git
+4.      git init                                                    -   crea un repositorio en la carpeta donde estoy actualmente
+5.      git add                                                     -   Indice los archivos para subir al repositorio 
+6.1     git add .                                                   -   Indice todos los archivos y carpetas que no estan creadas o actualizadas en el repositorio
+6.2     git add nombre.extension                                    -   Indice el archivo especifico
+7.      git commit -m 'nombre version'                              -   Crea la nueva version en el repositorio con los archivos alistados
+8.      git log                                                     -   Historial de Commit realizados al repositorio
+8.1     git log -p                                                  -   Lista los cambios que tiene el Commit con respecto a la version anterior
+8.2     git log --oneline                                           -   Lista lod commit mas reducidos
+9.       git status                                                  -   Muestra el estado del repositorio
+10.     git reset HEAD 'nombre del archivo'                         -   Eliminar del Indice un archivo
+11.     git diff                                                    -   Ver los cambios de los archivos que no estan en el Indice
+11.1    git diff --staged                                           -   Ver los Cambios de los archivos que estan en el Indice
+12.      git checkout -- 'nombre del archivo'                        -   Devolver el archivo a los valores del ultimo Commit
+13.     git show (Los primeros 7 numeros del ID del commit)         -   Muestra los cambios del commiy
+
+

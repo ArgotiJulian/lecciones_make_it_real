@@ -26,4 +26,4 @@ Consola
 12. find        -   buscar archivos y carpetas.                                     -   (linux)
 13. start       -   abre una carpeta
 14. code .      -   abre la carpeta en el editor de texto VSC
-15. New-Item    -  Crea un nuevo archivo (New-Item Index.html)
+15. New-Item    -   Crea un nuevo archivo                                           -   (New-Item Index.html)
