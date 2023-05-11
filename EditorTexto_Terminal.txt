@@ -1,0 +1,29 @@
+Editor de Texto
+
+1.  trabajando en HTML se puede sacar la plantilla con el signo de Exclamacion (!) y la tecla tab
+
+Consola
+
+*   prompt   =   El texto que se ejecuta cuando se abre la consola o el terminal
+
+
+
+1.  pwd         -   muestra la ubicación (la carpeta) en donde nos encontramos.
+2.  ls          -   muestra la lista de archivos que existe en la carpeta.
+3.  clear       -   limpia la consola (Ctrl + l)
+4.  cd          -   nos permite cambiar de ubicación.
+4.1 cd ..       -   nos permite retroceder a la carpeta anterior
+4.2 cd ../..    -   nos permite retroceder a la carpeta anterior de la anterior
+5.  mkdir       -   crea una nueva carpeta.
+6.  open        -   abre una carpeta en el explorador de archivos.                  -   (linux)
+7.  touch       -   crea un archivo vacío.                                          -   (linux)
+8.  mv          -   mover carpetas o archivos.                                      -   (mv [Archivo que voy a mover] [ubicacion Nueva])
+8.1 mv          -   renombrar carpetas o archivos.                                  -   (mv [Archivo Exisntente] [Nuevo Nombre])
+9.  cp          -   copiar carpetas o archivos.                                     -   (mp [Archivo que voy a copiar] [ubicacion Nueva])
+9.1 cp -r       -   copiar carpeta con subcarpetas
+10. rm          -   eliminar carpetas o archivos.                                   -   (rm [nombre del archivo a eliminar])
+11. cat         -   muestra el contenido de un archivo de texto.
+12. find        -   buscar archivos y carpetas.                                     -   (linux)
+13. start       -   abre una carpeta
+14. code .      -   abre la carpeta en el editor de texto VSC
+15. New-Item    -  Crea un nuevo archivo (New-Item Index.html)
