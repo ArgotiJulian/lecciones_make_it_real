@@ -1,6 +1,7 @@
 Indice  =   La ubicacion de los archivos que se encuentran listos para subir al repositorio
 
 
+COMANDOS
 
 1.      git config --global user.name Julian Argoti 
 2.      git config --global user.mail julian_argoti_27@hotmail.com
@@ -12,12 +13,41 @@ Indice  =   La ubicacion de los archivos que se encuentran listos para subir al 
 7.      git commit -m 'nombre version'                              -   Crea la nueva version en el repositorio con los archivos alistados
 8.      git log                                                     -   Historial de Commit realizados al repositorio
 8.1     git log -p                                                  -   Lista los cambios que tiene el Commit con respecto a la version anterior
-8.2     git log --oneline                                           -   Lista lod commit mas reducidos
-9.       git status                                                  -   Muestra el estado del repositorio
+8.2     git log --oneline                                           -   Lista los commit mas reducidos
+8.2     git log --oneline --graph                                   -   Lista los commit con las moficaciones por ramas
+9.      git status                                                  -   Muestra el estado del repositorio
 10.     git reset HEAD 'nombre del archivo'                         -   Eliminar del Indice un archivo
+10.1    git reset --hard 'rama remoto'/'rama local'   -   Remplaza lo que hay en la rama local por la rama remota antes se debe hacer la opcion 20.
 11.     git diff                                                    -   Ver los cambios de los archivos que no estan en el Indice
 11.1    git diff --staged                                           -   Ver los Cambios de los archivos que estan en el Indice
-12.      git checkout -- 'nombre del archivo'                        -   Devolver el archivo a los valores del ultimo Commit
+12.     git checkout -- 'nombre del archivo'                        -   Devolver el archivo a los valores del ultimo Commit
+12.1    git checkout 'Nombre Rama'                                  -   Desplaza a la rama seleccionada
+13.2    git checkout -b 'Nombre Rama'                               -   Crea la rama nueva y se Desplaza
 13.     git show (Los primeros 7 numeros del ID del commit)         -   Muestra los cambios del commiy
+14.     git branch                                                  -   Muestra las ramas que tiene el repositorio (la rama que tiene el * es la actual)
+14.1    git branch 'Nombre Rama'                                    -   Crea la Rama de la rama en la que estamos actualmente 
+14.2    git branch -m 'Nombre Nuevo Rama'                           .   Modifica el nombre de la rama
+14.3    git branch -d 'Nombre Rama'                                 -   Elimina la rama ya integrada
+14.4    git branch -D 'Nombre Rama'                                 -   Elimina la rama no integrada
+15.     git merge 'Nombre Rama'                                     -   Integra rama solicitada a la rama en la que nos encontramos actualmente
+16.     git remote                                                  -   Lista los Repositorios remotos
+16.     git remote add 'rama remoto' url              -   Agrega la Ruta del repositorio remoto en el PC
+17.     git push -u 'rama remoto' 'rama'              -   Sincroniza repositorio
+17.1    git push                                                    -   Sincroniza repositorio  automaticamente pero se debe haber creado primero con 'push -u'
+18.     git clone url                                               -   clona el repositorio remoto en la carpeta donde estoy
+19.     git pull                                                    -   Sincroniza desde el Repositorios remoto
+20.     git fetch origin                                            -   Revisa si el repositorio remoto tiene alguna modificacion 
+20.1    git checkout 'nombre de la rama'                            -   Descarga la rama del repositiorio remoto, se debe realizar primero la opcion 20.
+
+
+ARCHIVOS
+
+1.  .gitignore
+
+    a.  En el archivo .gitignore escribimos los nombres de los archivo o carpetas que queremos ignorar (uno por línea).
+    b. Para Generar Comentarios se debe utilizar el simbolo # antes del texto
+    c. *.extension "Ignora todo los archivos de este tipo de extension"
+
+
 
 
