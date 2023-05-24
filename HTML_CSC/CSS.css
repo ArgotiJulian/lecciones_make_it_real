@@ -1,0 +1,81 @@
+/* 
+    1.  Los archivos de CSS, son documentos de texto plano con la extensión .css 
+    2.  CSS nos sirve para agregar estilos a los documentos de HTML.
+    3.  Un selector CSS permite identificar el elemento de HTML al cual se le quieren aplicar estilos
+    4.  Una propiedad de CSS es el aspecto de un elemento de HTML al cual se le quiere aplicar un estilo
+    5.  Una regla de CSS se compone de un selector y todas las propiedades de CSS que serán aplicadas a un elemento específico.
+    6.  Las clases (class) y los id (id) son atributos que se utilizan como selectores para identificar elementos de HTML.
+        CLASES
+        i.  Las clases se usan como selectores cuando queires aplicarle estilos CSS a uno o varios elementos. 
+        ii. Puedes agregar una clase a todos los elemntos que quieres que se vean igual  
+        ID
+        i.      Los id se usan como selectores de un elemmento específico. 
+        ii.     No se debe usar el mismo id para referencias dos elementos en un documento HTML
+
+PROPIEDADES
+    color                   =   Color Letra
+    background-color        =   Color de Fondo
+    font-size               =   Tamaño Letra
+    font-weight             =   Estilo Fuente
+    font-family             =   Estilo de Letra
+    border                  =   Bordes
+
+    https://developer.mozilla.org/es/docs/Web/CSS/Reference
+
+    
+
+    
+*/
+/*Selector */
+body {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    border: 7px solid red;
+    padding: 1px;
+    margin: 1px;
+}
+
+h3 {
+    /*Propiedades Para Afectar */
+    margin-top: 1px;
+    color: green;
+    font-size: 50px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.title {
+    color: white;
+    background: purple url('https://i.pinimg.com/originals/88/ea/9a/88ea9ae8bed4f7dfa02404cfecb7fac7.png') no-repeat center center/cover fixed;
+
+    padding: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+
+    border: 5px solid black;
+    border-top: 5px dashed blue;
+    border-right: 5px dotted orangered;
+    border-bottom: 5px double red;
+    border-left: 5px solid yellowgreen;
+
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+table,
+td,
+td,
+th {
+    border: 1px solid red;
+}
